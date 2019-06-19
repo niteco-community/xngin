@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ha.bui\\Documents\\Niteco\\xngin\\Voluspa\\HtmlCache\\HtmlCache.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ha.bui\\Documents\\Niteco\\xngin\\Voluspa\\HtmlCache\\HtmlCache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ha.bui\\Documents\\Niteco\\xngin\\Voluspa\\HtmlCache\\HtmlCache.csproj",
+        "projectName": "HtmlCache",
+        "projectPath": "C:\\Users\\ha.bui\\Documents\\Niteco\\xngin\\Voluspa\\HtmlCache\\HtmlCache.csproj",
+        "packagesPath": "C:\\Users\\ha.bui\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ha.bui\\Documents\\Niteco\\xngin\\Voluspa\\HtmlCache\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ha.bui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.episerver.com/feed/packages.svc": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "EPiServer.CMS.AspNet": {
+              "target": "Package",
+              "version": "[11.12.0, )"
+            },
+            "Microsoft.DotNet.InternalAbstractions": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.601, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

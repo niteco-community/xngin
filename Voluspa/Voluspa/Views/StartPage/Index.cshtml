@@ -1,0 +1,4 @@
+@using Voluspa
+@model PageViewModel<Voluspa.Models.Pages.StartPage>
+
+@Html.PropertyFor(x => x.CurrentPage.MainContentArea, new { CssClass = "row equal-height", tag = Global.ContentAreaTags.FullWidth })
